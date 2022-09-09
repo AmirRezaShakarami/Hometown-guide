@@ -1,0 +1,122 @@
+html {
+    background-color: #a5a073d8;
+    padding: 20px;
+}
+body {
+    width: 800px;
+    background-color: #E9EADC;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 20px;
+}
+#hero {
+    color: #ffff;
+    background-image: url("images/Landscape.jpg");
+    background-size: cover contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+#hero-title {
+    background-color:#897B31;
+    width: 201px;
+    height: 34px;
+    margin: 90px auto 15px auto;
+    padding: 10px 2.5px 5px;
+    border-radius: 5px;
+}
+#hero-text {
+    background-color: #787D67;
+    margin: 0;
+    padding: 10px 10px 7px;
+    border-radius: 5px;
+}
+
+#activities {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+.activity {
+    color: #5F6315;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0px 0;
+    width: 150px;
+    height: 340px;
+
+}
+
+#activity1-img {
+    background-image: url("images/Dashte-Barm.jpg");
+    background-position: 0;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#activity2-img {
+    background-image: url("images/Statue-of-shapur.jpg");
+    background-position: 90% 50%;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+#activity3-img {
+    background-image: url("images/Narges-zaar.jpg");
+    background-position: 10%;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#guide-position {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#guide {
+    width: 350px;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #a5a073d8;
+    border-radius: 10px;
+    border-bottom: 5px solid black;
+    margin: 30px;
+}
+#guide-image{
+    background-image: url("images/amir2.png");
+    background-size: cover;
+    width: 130px;
+    height: 180px;
+    background-position: 40% ;
+    margin: 23px 7px 23px 10px;
+    border-radius: 10px;
+}
+#guide-content{
+    width: 150px;
+    margin: 90px 5px 85px 0;
+
+}
